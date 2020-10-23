@@ -1,0 +1,12 @@
+name: tablecloth
+channels:
+  - defaults
+dependencies:
+- pip
+- pip:
+  - tweepy
+  - zipcodes
+  - censusdata
+  - us
+prefix: /opt/anaconda3/envs/tablecloth
+
